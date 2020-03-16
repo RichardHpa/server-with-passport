@@ -1,0 +1,31 @@
+{
+  "name": "backendpassport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardHpa/server-with-passport.git"
+  },
+  "author": "Richard Hpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardHpa/server-with-passport/issues"
+  },
+  "homepage": "https://github.com/RichardHpa/server-with-passport#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
